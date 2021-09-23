@@ -1,0 +1,13 @@
+Identification of BoF
+Spiking
+Fuzzing
+Unique pattern creation (msf-pattern_create)
+Unique pattern offset (msf-pattern_offset)
+Confirm EIP offset location
+Identify bad characters
+Identify registry JMP point (a.k.a Find the correct module(using '!mona'))
+Test JMP ESP control with breakpoint
+Set NOP (\x90) with breakpoint
+Create shellcode using msfvenom
+Call home listener(netcat or msfconsole)
+Execute shellcode and get root
